@@ -5,7 +5,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="Ethan R. Jones' Landing Page with a resume, contact links and a list of his 100 Top Albums.">
+    <meta name="description" content="Ethan R. Jones' landing page with a resume, contact links and a image of his 100 Top Albums.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Simple header bits. -->
@@ -16,43 +16,33 @@
     <meta property="og:type" content="profile"/>
     <meta property="og:title" content="Ethan R. Jones"/>
     <meta property="og:description" content="IT Support Specialist."/>
-    <meta property="og:image" content="https://ethanrjones.name/img/ogp-preview.jpg"/>
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap-5.3.2-purge.css" rel="stylesheet">
+    <meta property="og:image" content="https://ethanrjones.name/img/ogp-preview.webp"/>
+    <!-- Site CSS (replaces Bootstrap) -->
+    <link href="css/site.css" rel="stylesheet">
 </head>
 
 <!-- Actual webpage bits. -->
 <body class="bg-light">
-    <div class="container" style="padding-top: 2.5rem; padding-bottom: 1rem;">
-        <div class="mx-auto card border-dark mb-3" style="width: 300px; padding-top: 2rem;">
-            <img class="img-fluid rounded-circle mx-auto" type="image/webp" src="img/real-face-erj-resize.webp" title="Photo of my face on Marshall Island in North Park." width="150" height="150">
-            <div class="card-block" style="width: 20rem; padding-top: 2rem;">
-            </div>
-            <center><b>Ethan R. Jones</b></center>
-            <center><b>IT Support Specialist working in the Healthcare Industry.</b></center>
-            <center>A life-long Linux and Free Software advocate.</center>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <p><b>Resume 📃: </b><a href="files/EthanRJones-Resume-2025-FEB-05.pdf">Ethan R. Jones</a></p>
-                </li>
-                <li class="list-group-item">
-                    <p><b>GitHub 💾: </b><a href="https://github.com/ethanrjones97">ethanrjones97</a></p>
-                </li>
-                <li class="list-group-item">
-                    <p><b>E-Mail 📧: </b><a href="mailto:ethanrjones97@gmail.com">ethanrjones97</a></p>
-                </li>
-                <li class="list-group-item">
-                    <p><b>SSH 🔑: </b><a href="files/ethanrjones97.key" type="text/plain">ethanrjones97</a></p>
-                </li>
-                <li class="list-group-item">
-                    <p><b>PGP 🔒: </b><a href="files/ethanrjones97.asc" type="text/plain">B9E647BD</a></p>
-                </li>
-                <li class="list-group-item">
-                    <p><b>Top 100 🎵: </b><a href="img/top-100-AUG-2024.webp">Albums</a></p>
-                </li>
-		
-            </ul>
-        </div>
+  <div class="container pt pb">
+    <div class="card border-dark mb-3 profile-card">
+      <picture>
+        <source srcset="img/headshot-2025.avif" type="image/webp">
+        <img class="img-fluid rounded-circle profile-image" src="img/headshot-2025.avif" alt="Ethan R. Jones" title="Photo of my face on Marshall Island in North Park.">
+      </picture>
+      <div class="card-body text-center">
+        <h1 class="profile-name"><strong>Ethan R. Jones</strong></h1>
+        <p class="subtitle"><strong>Cloud Support Specialist</strong></p>
+        <p class="tagline">A life-long Linux and Free Software advocate with a career in Healthcare IT.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><p><strong>Resume 📃:</strong> <a href="files/EthanRJones-Resume-2025-FEB-05.pdf">Ethan R. Jones</a></p></li>
+        <li class="list-group-item"><p><strong>GitHub 💾:</strong> <a href="https://github.com/ethanrjones97">ethanrjones97</a></p></li>
+        <li class="list-group-item"><p><strong>E-Mail 📧:</strong> <a href="mailto:ethanrjones97@gmail.com">ethanrjones97@gmail.com</a></p></li>
+        <li class="list-group-item"><p><strong>SSH 🔑:</strong> <a href="files/ethanrjones97.key" type="text/plain">ethanrjones97</a></p></li>
+        <li class="list-group-item"><p><strong>PGP 🔒:</strong> <a href="files/ethanrjones97.asc" type="text/plain">B9E647BD</a></p></li>
+        <li class="list-group-item"><p><strong>Top 100 🎵:</strong> <a href="img/top-100-AUG-2024.webp">Albums</a></p></li>
+      </ul>
     </div>
+  </div>
 </body>
 </html>
